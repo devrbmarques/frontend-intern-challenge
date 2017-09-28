@@ -1,0 +1,45 @@
+/* general mobiles */
+@media (max-width: 850px) {
+    #links-section {
+        width: 100%;
+        height: 560px;
+        margin-top: -15px;
+    }
+    #links-section .links-title {
+        font-size: 26px;
+        top: 100px;
+        padding: 0 10px;
+    }
+    #links-section .links-subtitle {
+        font-size: 16px;
+        top: 90px;
+        padding: 0 10px;
+    }
+    #links-section .typelinks-box {
+        top: 70px;
+        width: calc(100% - 20px);
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    #links-section .typelinks-input {
+        font-size: 17px;
+        margin-top: 50px;
+        width: 100%;
+    }
+    #links-section .typelinks-btn {
+        font-size: 16px;
+        margin-top: 22px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    #footer-section .footer-content {  
+        width: calc(100% - 20px);
+        padding: 20px 10px 15px 10px;
+    }
+
+    #top5-section .top5-hits .top5-list {        
+        width: 100%;
+    }
+
+}

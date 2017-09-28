@@ -1,0 +1,348 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+body {
+    padding: 0;
+    margin: 0;
+}
+
+span,
+input,
+div,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2,
+h1,
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-title {
+    font-family: 'Roboto Slab', serif;
+    color: #AA1423;
+    font-size: 37px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0px;
+    font-weight: 400;
+}
+
+
+/*
+#######################################
+## Header
+#######################################
+*/
+
+#header {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#header .logo-img {
+    position: relative;
+}
+
+#header .logo-wrapper {
+    position: relative;
+    padding: 17px 0 6px 0;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+
+/*
+#######################################
+## Links Section 
+#######################################
+*/
+
+#links-section {
+    width: 100%;
+    height: 700px;
+    margin-top: -15px;
+}
+
+.links-cover {
+    position: relative;
+    background-image: url("../assets/images/backgrounds/background-home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    top: 0px;
+}
+
+.links-title {
+    font-family: 'Roboto Slab', serif;
+    position: relative;
+    top: 200px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.links-subtitle {
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    top: 180px;
+    font-weight: 400;
+}
+
+
+/*
+#######################################
+## Typelinks Section 
+#######################################
+*/
+
+#links-section .typelinks-box {
+    position: relative;
+    text-align: center;
+    top: 250px;
+    width: 589px;
+    margin: 0 auto;
+}
+
+#links-section .links-info .typelinks-input {
+    border: none;
+    border-bottom: 1px solid #EEE;
+}
+
+#links-section .typelinks-input {
+    width: calc(100% - 150px);
+    height: 48px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #F16C12;
+    margin-right: 6px;
+    color: #F16C12;
+    font-size: 20px;
+    font-weight: 800;
+    float: left;
+}
+
+#links-section .typelinks-input.active {
+    color: #fff;
+}
+
+#links-section .typelinks-input:focus {
+    border-bottom: 2px solid #FF8808;
+    outline: none;
+}
+
+#links-section .typelinks-input::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #ff8809;
+}
+
+#links-section .typelinks-input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #ff8809;
+    opacity: 1;
+}
+
+#links-section .typelinks-input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #ff8809;
+    opacity: 1;
+}
+
+#links-section .typelinks-input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ff8809;
+}
+
+#links-section .typelinks-btn {
+    width: 140px;
+    height: 50px;
+    background: #FF6E15;
+    border: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+#links-section .typelinks-btn:focus {
+    outline: none;
+}
+
+
+/*
+#######################################
+## Top5 Section 
+#######################################
+*/
+
+#top5-section .top5-hits {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#top5-section .top5-hits h2 {
+    font-family: 'Roboto Slab', serif;
+    color: #AA1423;
+    font-size: 37px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 0px;
+    font-weight: 400;
+}
+
+#top5-section .top5-hits .top5-list {
+    margin: 0 auto;
+    display: block;
+    width: 450px;
+    list-style: none;
+    padding: 0;
+}
+
+#top5-section .top5-hits .top5-item {
+    padding: 10px;
+    border-bottom: 1px solid #EEE;
+}
+
+#top5-section .top5-hits .top5-item.last {
+    border: none;
+}
+
+#top5-section .top5-hits .top5-item:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#top5-section .links-hits {
+    text-align: left;
+    color: #AA1423;
+    font-weight: bold;
+    float: left;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+#top5-section .hits {
+    text-align: right;
+    color: #777;
+    float: right;
+}
+
+
+/*
+#######################################
+## Hit Section 
+#######################################
+*/
+
+#hit-section {
+    background-color: #EEE;
+}
+
+#hit-section .hit-section-border {
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 50px 50px 0 50px;
+    border-color: #fff transparent transparent transparent;
+}
+
+#hit-section .hit-wrapper {
+    font-family: 'Roboto Slab', serif;
+    color: #AA1423;
+    text-align: center;
+    height: 280px;
+    padding-top: 0px;
+}
+
+
+/*Abaixo, Falta colocar a espessura da borda*/
+
+#hit-section .hit-number {
+    font-size: 13pt;
+    background-color: #ffffff;
+    padding: 0px 15px 0px 15px;
+    border-radius: 2px;
+}
+
+#hit-section .hit-number {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 40px;
+    border: 1px solid #EEE;
+    box-shadow: 0px 0px 1px 0px #777;
+}
+
+#hit-section .hit-text-box {
+    margin-top: 8px;
+}
+
+#hit-section .hit-text {
+    color: #777;
+    font-size: 20px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+
+/*
+#######################################
+## Footer
+#######################################
+*/
+
+#footer-section .footer-content {
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    padding: 20px 0 15px 0;
+}
+
+#footer-section .footer-content:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#footer-section .footer-link {
+    color: #AA1423;
+    font-size: 25px;
+    width: 40%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    text-decoration: none;
+}
+
+#footer-section .footer-icons {
+    width: 60%;
+    float: right;
+    height: auto;
+}
+
+#footer-section .footer-icons-list {
+    padding: 0;
+    float: right;
+    margin: 0;
+}
+
+#footer-section .footer-icons-list li {
+    list-style: none;
+    display: inline-block;
+    height: auto;
+    margin: 0 12px;
+}

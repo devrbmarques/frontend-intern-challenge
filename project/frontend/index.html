@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Desafio Front-End</title>
+
+	<!-- styles -->
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+	<!-- cabecalho superior da pagina -->
+	<header id="header">
+		<div class="logo-wrapper">
+			<img class="logo-img" src="assets/images/logo-chaordic.png" alt="chaordic logo">
+		</div>
+	</header>
+
+	<!-- area em que ocorre a digitacao do link a ser encurtado -->
+	<section id="links-section">
+		<div class="links-cover">
+			<div class="container">
+				<div class="links-content">
+					<div class="links-info">
+						<h1 class="links-title">
+							Encurte seus links.
+						</h1>
+
+						<h2 class="links-subtitle">
+							Links são longos. Encurte os links que vocês deseja compartilhar,<br> e acompanhe enquanto viajam através da internet.
+						</h2>
+					</div>
+
+					<div class="typelinks-box">
+						<input class="typelinks-input" type="text" size="50" placeholder="Cole o seu link aqui">
+						<input class="typelinks-btn" type="button" value="ENCURTAR">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- area em que exibe a lista dos 5 links mais clicados -->
+	<section id="top5-section">
+		<div class="container">
+			<div class="top5-content">
+				<div class="top5-hits">
+					<h2 class="section-title">TOP 5</h2>
+					<ul class="top5-list">
+													
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- area em que exibe a quantidade total de hits nos links -->
+	<section id="hit-section">
+		<div class="container">
+			<div class="hit-wrapper">
+				<div class="hit-section-border"></div>
+				<h2 class="section-title">
+					HITS
+				</h2>
+				<div class="hit-number-box">
+					<span class="hit-number">
+						35.713.571
+					</span>
+				</div>
+				<div class="hit-text-box">
+					<span class="hit-text">
+						Cliques em links
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- cabecalho inferior da pagina -->
+	<footer id="footer-section">
+		<div class="container">
+			<div class="footer-content">
+				<div class="footer-link">
+					<span class="link">chr.dc</span>
+				</div>
+				<div class="footer-icons">
+					<ul class="footer-icons-list">
+						<li class="footer-item">
+							<a class="footer-link" href="https://twitter.com/chaordic" target="_blank"><img id="icon-twitter" src="assets/icons/icon-twitter.png" alt="chaordic twitter"></a>
+						</li>
+						<li class="footer-item">
+							<a class="footer-link" href="https://pt-br.facebook.com/chaordic.com.br/" target="_blank"><img id="icon-facebook" src="assets/icons/icon-facebook.png" alt="chaordic facebook"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- scripts -->
+	<script language="JavaScript" src="js/jquery.js"></script>
+	<script language="JavaScript" src="js/main.js"></script>	
+</body>
+
+</html>
